@@ -1,4 +1,19 @@
-"use strict";function FncBundle(){MostReq(),ScrollPos()}doc.addEventListener("click",function(){ResetThePage()}),doc.addEventListener("DOMContentLoaded",function(n){FncBundle()}),win.addEventListener("scroll",function(){FncBundle()}),win.addEventListener("resize",function(){FncBundle()}),window.onload=LoadTime;le() {
+
+"use strict";
+doc.addEventListener("click",function(){
+	ResetThePage();
+});
+doc.addEventListener("DOMContentLoaded",function(event){
+	//M01();
+	FncBundle();
+});
+win.addEventListener("scroll",function(){
+	FncBundle();
+});
+win.addEventListener("resize",function(){
+	FncBundle();
+});
+function FncBundle() {
 	//MainList();
 	//BalanceMainList();
 	MostReq();
